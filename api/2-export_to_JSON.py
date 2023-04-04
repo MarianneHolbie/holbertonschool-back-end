@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """
-    Script script to export data in the CSV format
-    Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
-    File name must be: USER_ID.csv
+    Script script to export data in the JSON format
+    Format must be: { "USER_ID": [{"task": "TASK_TITLE", "completed":
+      TASK_COMPLETED_STATUS, "username": "USERNAME"}, {"task": "TASK_TITLE",
+        "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, ... ]}
+    File name must be: USER_ID.json
 """
 
 
