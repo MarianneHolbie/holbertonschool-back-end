@@ -5,8 +5,8 @@
 """
 
 
-import requests
 import json
+import requests
 import sys
 
 if __name__ == "__main__":
@@ -46,8 +46,8 @@ if __name__ == "__main__":
 
     # construct answer
     # first line
-    print(f"Employee {EMPLOYEE_NAME} is done with tasks(\
-          {NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):")
+    print(f"Employee {EMPLOYEE_NAME} is done with"
+          f"tasks({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):")
     # second to n line
     for task in TASK_TITLE:
         print(f"\t {task}")
